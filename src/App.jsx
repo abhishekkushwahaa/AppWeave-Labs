@@ -1,3 +1,12 @@
+import Navbar from "./components/Navbar";
+import Product from "./components/Product";
+
 export default function App() {
-  return <h1 className="text-3xl font-bold">Hello world!</h1>;
+  return (
+    <>
+      <Navbar />
+
+      <Product />
+    </>
+  );
 }
